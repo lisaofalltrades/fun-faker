@@ -1,2 +1,2 @@
-# faker-hp
-make it fake but hogwarts
+# fun-faker
+make it fake but fun
