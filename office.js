@@ -1,9 +1,8 @@
-// Variables
-const characters = [
+const characterList = [
   'Michael Scott', 'Dwight Schrute', 'Jim Halpert', 'Pam Beesly', 'Ryan Howard', 'Andy Bernard', 'Robert California'
 ]
 
-const quotes = [
+const quoteList = [
   'Sometimes I\'ll start a sentence and I don\'t even know where it\'s going. I just hope I find it along the way.',
   'I talk a lot, so I\'ve learned to just tune myself out...',
   'I am Beyonce always.',
@@ -34,10 +33,8 @@ const quotes = [
   'I just wanna lie on the beach and eat hot dogs. That\'s all I\'ve ever wanted.',
   'That\'s what she said.'
 ]
-function randomCharacter () {
-  return characters[Math.floor(Math.random() * characters.length)]
-}
 
-function randomQuote () {
-  return quotes[Math.floor(Math.random() * quotes.length)]
+module.exports = {
+  characters: characterList,
+  quotes: quoteList
 }
