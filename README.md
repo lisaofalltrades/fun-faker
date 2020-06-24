@@ -5,8 +5,9 @@ make it fake but fun
 
 ```javascript
 // require the office files
-const office = require('./office')
-const funFaker = require('./funFaker')
+const funFaker = require('fun-faker')
+const office = require('./node_modules/fun-faker/office')
+
 
 const randomCharacter = funFaker.randomCharacter(office)
 const randomQuote = funFaker.randomQuote(office)

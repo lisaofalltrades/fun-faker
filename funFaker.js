@@ -1,14 +1,15 @@
-function randomCharacter (args) {
-  const characters = args.characters
-  return characters[Math.floor(Math.random() * characters.length)]
-}
-
-function randomQuote (args) {
-  const quotes = args.quotes
-  return quotes[Math.floor(Math.random() * quotes.length)]
-}
+const office = require('./office')
+const hp = require('./hp')
 
 module.exports = {
-  randomCharacter: randomCharacter,
-  randomQuote: randomQuote
+  randomCharacter: (args) => {
+    const characters = args.characters
+    return characters[Math.floor(Math.random() * characters.length)]
+  },
+  randomQuote: (args) => {
+    const quotes = args.quotes
+    return quotes[Math.floor(Math.random() * quotes.length)]
+  },
+  office: office,
+  hp: hp
 }
