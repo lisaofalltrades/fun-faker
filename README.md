@@ -6,18 +6,13 @@ make it fake but fun
 ```javascript
 // require the office files
 const office = require('./office')
+const funFaker = require('./funFaker')
 
-function randomCharacter (args) {
-  const characters = args.characterList
-  return characters[Math.floor(Math.random() * characters.length)]
-}
+const randomCharacter = funFaker.randomCharacter(office)
+const randomQuote = funFaker.randomQuote(office)
 
-function randomQuote (args) {
-  const quotes = args.quotes
-  return quotes[Math.floor(Math.random() * quotes.length)]
-}
-console.log(randomCharacter(office))
+console.log(randomCharacter(randomCharacter))
 // returns a random character
-console.log(randomQuote(office))
+console.log(randomQuote(randomQuote))
 // returns a random quote
 ```
