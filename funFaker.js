@@ -9,6 +9,6 @@ function randomQuote (args) {
 }
 
 module.exports = {
-  randomCharacter: randomCharacter(),
-  randomQuote: randomQuote()
+  randomCharacter: randomCharacter,
+  randomQuote: randomQuote
 }
