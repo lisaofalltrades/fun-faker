@@ -1,6 +1,6 @@
 {
   "name": "fun-faker",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "make it fake but fun",
   "main": "funFaker.js",
   "scripts": {
