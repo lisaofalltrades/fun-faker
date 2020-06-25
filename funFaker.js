@@ -1,15 +1,12 @@
 const office = require('./office')
 const hp = require('./hp')
+const medical = require('./medical')
 
 module.exports = {
-  randomCharacter: (args) => {
-    const characters = args.characters
-    return characters[Math.floor(Math.random() * characters.length)]
-  },
-  randomQuote: (args) => {
-    const quotes = args.quotes
-    return quotes[Math.floor(Math.random() * quotes.length)]
+  randomItem: (args) => {
+    return args[Math.floor(Math.random() * args.length)]
   },
   office: office,
-  hp: hp
+  hp: hp,
+  medical: medical
 }
