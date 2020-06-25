@@ -1,3 +1,4 @@
+// exported
 const characterList = [
   'Hannah Abbott', 'Ludo Bagman', 'Bathilda Bagshot', 'Katie Bell', 'Cuthbert Binns', 'Sirius Black', 'Walburga Black', 'Amelia Bones', 'Susan Bones', 'Terry Boot', 'Lavender Brown', 'Millicent Bulstrode', 'Charity Burbage', 'Frank Bryce', 'Alecto Carrow', 'Amycus Carrow', 'Reginald Cattermole', 'Mary Cattermole', 'Cho Chang', 'Penelope Clearwater', 'Mrs.Cole', 'Michael Corner', 'Vincent Crabbe', 'Colin Creevey', 'Dennis Creevey', 'Dirk Cresswell', 'Barty Crouch Sr', 'Barty Crouch Jr', 'Roger Davies', 'John Dawlish', 'Fleur Delacour', 'Gabrielle Delacour', 'Dedalus Diggle', 'Amos Diggory', 'Cedric Diggory', 'Elphias Doge', 'Antonin Dolohov', 'Aberforth Dumbledore', 'Albus Dumbledore', 'Ariana Dumbledore', 'Kendra Dumbledore', 'Percival Dumbledore', 'Dudley Dursley', 'Marge Dursley', 'Petunia Dursley', 'Vernon Dursley', 'Marietta Edgecombe', 'Arabella Figg', 'Argus Filch', 'Justin Finch-Fletchley', 'Seamus Finnigan', 'Marcus Flint', 'Mundungus Fletcher', 'Filius Flitwick', 'Florean Fortescue', 'Cornelius Fudge', 'Marvolo Gaunt', 'Merope Gaunt', 'Morfin Gaunt', 'Anthony Goldstein', 'Mr. Goyle', 'Mrs. Goyle', 'Gregory Goyle', 'Hermione Granger', 'Gregorovitch', 'Fenrir Greyback', 'Gellert Grindelwald', 'Wilhelmina Grubbly-Plank', 'Rubeus Hagrid', 'Rolanda Hooch', 'Mafalda Hopkirk', 'Angelina Johnson', 'Lee Jordan', 'Igor Karkaroff', 'Viktor Krum', 'Silvanus Kettleburn', 'Bellatrix Lestrange', 'Rabastan Lestrange', 'Rodolphus Lestrange', 'Gilderoy Lockhart', 'Alice and Frank Longbottom', 'Augusta Longbottom', 'Neville Longbottom', 'Luna Lovegood', 'Xenophilius Lovegood', 'Remus Lupin', 'Teddy Lupin', 'Walden Macnair', 'Draco Malfoy', 'Lucius Malfoy', 'Narcissa Malfoy', 'Scorpius Malfoy', 'Madam Malkin', 'Griselda Marchbanks', 'Olympe Maxime', 'Ernie Macmillan', 'Minerva McGonagall', 'Cormac McLaggen', 'Graham Montague', 'Alastor (Mad - Eye) Moody', 'Theodore Nott', 'Bob Ogden', 'Garrick Ollivander', 'Pansy Parkinson', 'Padma Patil', 'Parvati Patil', 'Peter Pettigrew', 'Antioch Peverell', 'Cadmus Peverell', 'Ignotus Peverell', 'Irma Pince', 'Sturgis Podmore', 'Poppy Pomfrey', 'Harry Potter', 'James Potter', 'Lily Potter', 'Albus Severus Potter', 'James Sirius Potter', 'Lily Luna Potter', 'Quirinus Quirrell', 'Helena Ravenclaw', 'Mary Riddle', 'Thomas Riddle Sr. ', 'Thomas Riddle Jr. ', 'Thomas Marvolo Riddle', 'Demelza Robins', 'Augustus Rookwood', 'Thorfinn Rowle', 'Albert Runcorn', 'Newt Scamander', 'Rufus Scrimgeour', 'Kingsley Shacklebolt', 'Stan Shunpike', 'Aurora Sinistra', 'Rita Skeeter', 'Horace Slughorn', 'Salazar Slytherin', 'Zacharias Smith', 'Severus Snape', 'Alicia Spinnet', 'Pomona Sprout', 'Pius Thicknesse', 'Dean Thomas', 'Andromeda Tonks', 'Nymphadora Tonks', 'Ted Tonks', 'Sybill Trelawney', 'Wilkie Twycross', 'Dolores Umbridge', 'Emmeline Vance', 'Romilda Vane', 'Septima Vector', 'Lord Voldemort', 'Moaning Myrtle', 'Arthur Weasley', 'Bill Weasley', 'Charlie Weasley', 'Fred Weasley', 'George Weasley', 'Ginny Weasley', 'Hugo Weasley', 'Molly Weasley', 'Percy Weasley', 'Ron Weasley', 'Oliver Wood', 'Rose Weasley', 'Corban Yaxley', 'Blaise Zabini'
 ]
@@ -79,11 +80,135 @@ const locationList = [
   'Platform Nine and Three-Quarters'
 ]
 
+// not exported
+
+const wandCeremony = {
+  manufacturer: [
+    'Antioch Peverell',
+    'Garrick Ollivander',
+    'Mykew Gregorovitch',
+    'Jimmy Kiddell',
+    'Arturo Cephalopos',
+    'Violetta Beauvais',
+    'Johannes Jonker',
+    'Thiago Quintana',
+    'Shikoba Wolfe',
+    'James Steward'
+  ],
+  wood: [
+    'acacia',
+    'alder',
+    'apple',
+    'ash',
+    'aspen',
+    'beech',
+    'birch',
+    'blackthorn',
+    'black walnut',
+    'cedar',
+    'cherry',
+    'chestnut',
+    'cypress',
+    'dogwood',
+    'ebony',
+    'elder',
+    'elm',
+    'english oak',
+    'fir',
+    'hawthorn',
+    'hazel',
+    'holly',
+    'hornbeam',
+    'ivy',
+    'larch',
+    'laurel',
+    'mahogany',
+    'mapel',
+    'pear',
+    'pine',
+    'poplar',
+    'prickly ash',
+    'red oak',
+    'redwood',
+    'reed',
+    'rosewood',
+    'rowan',
+    'silver lime',
+    'spruce',
+    'sugar maple',
+    'swamp mayhaw',
+    'sycamore',
+    'tamarack',
+    'vine',
+    'walnut',
+    'willow',
+    'yew'
+  ],
+  core: [
+    'dragon heartstring',
+    'phoenix feather',
+    'unicorn tail hair',
+    'veela hair',
+    'threstral tail hair',
+    'troll whisker',
+    'coral',
+    'dittany stalk',
+    'thunderbird tail feather',
+    'wampus cat hair',
+    'white river monster spine',
+    'rougarou hair',
+    'horned Serpent horn',
+    'snallygaster heartstring',
+    'jackalope antler',
+    'kneazle whisker',
+    'kelpie hair',
+    'basilisk horn',
+    'curupira hair'
+  ],
+  wandLength: (min = 9, max = 14) => {
+    return Math.floor(Math.random() * (max - min + 1) + min)
+  },
+  flexibility: [
+    'unyielding',
+    'combustible',
+    'flexible',
+    'reasonably springy',
+    'inflexible',
+    'slightly bendy',
+    'nice and supple',
+    'fairly flexible',
+    'pliable',
+    'swishy',
+    'stiff',
+    'brittle',
+    'bendy',
+    'rather bendy',
+    'whippy',
+    'quite rigid',
+    'very flexible',
+    'fine',
+    'nice and flexible',
+    'quite whippy',
+    'springy',
+    'rigid',
+    'slightly springy and flexible'
+  ],
+  description: [
+    'A wand of exceptional power',
+    'Nice for Charm work',
+    'Excellent for transfiguration',
+    'Unusually short',
+    'Pleasantly springy',
+    'Unyielding'
+  ]
+}
+
 module.exports = {
   characters: characterList,
   quotes: quoteList,
   schools: schoolList,
   houses: houseList,
   dwellings: dwellings,
-  locations: locationList
+  locations: locationList,
+  wandCeremony: wandCeremony
 }
