@@ -22,3 +22,25 @@ const email = funFaker.userEmail(randomCharacter)
 // result
 console.log(`Name: ${randomCharacter}\nJob: ${job}\nEmail: ${email}\nMotto: ${quote}`)
 ```
+
+## Themes
+
+### Books
+Harry Potter
+  - characters
+  - quotes
+
+### Shows
+The Office
+  - characters
+  - quotes
+  
+### Games
+The Witcher
+  - characters
+  - quotes
+
+### Industries
+Medical
+  - conditions
+  - jobs
