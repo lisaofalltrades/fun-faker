@@ -25,7 +25,65 @@ const quoteList = [
   'Twitchy little ferret, aren’t you, Malfoy?'
 ]
 
+const schoolList = ['Beauxbatons', 'Durmstrang', 'Hogwarts', 'Ilvermorny', 'Castelobruxo']
+const houseList = ['Gryffindor', 'Hufflepuff', 'Ravenclaw', 'Slytherin']
+
+const dwellings = [
+  'The Burrow',
+  'Godric\'s Hollow',
+  'Little Hangleton',
+  'Little Whinging',
+  'Malfoy Manor',
+  'Number 12, Grimmauld Place',
+  'Shell Cottage',
+  'Spinner\'s End'
+]
+
+const locationList = [
+  'Diagon Alley',
+  'Eeylops Owl Emporium',
+  'Florean Fortescue\s Ice Cream Parlour',
+  'Flourish & Blotts',
+  'Gambol and Japes',
+  'Gringotts Wizarding Bank',
+  'Knockturn Alley',
+  'Borgin & Burkes',
+  'The Leaky Cauldron',
+  'Madam Malkin\'s Robes for All Occasions',
+  'Magical Menagerie',
+  'Ollivanders',
+  'Potage\'s Cauldron Shop',
+  'Quality Quidditch Supplies',
+  'Slug and Jiggers Apothecary',
+  'Stalls',
+  'Twilfitt and Tatting\'s',
+  'Weasleys\' Wizard Wheezes',
+  'Wiseacre\'s Wizarding Equipment',
+  'Hogsmeade',
+  'The Three Broomsticks',
+  'Honeydukes',
+  'Zonko\'s Joke Shop',
+  'Hogsmeade Station',
+  'The Hog\'s Head',
+  'Dervish & Banges',
+  'Gladrags Wizardwear',
+  'Scrivenshaft\'s Quill Shop',
+  'Madam Puddifoot\'s',
+  'Post Office',
+  'Shrieking Shack',
+  'Azkaban',
+  'Magical Congress of the United States of America',
+  'Ministry of Magic',
+  'St Mungo\'s Hospital for Magical Maladies and Injuries',
+  'Nurmengard',
+  'Platform Nine and Three-Quarters'
+]
+
 module.exports = {
   characters: characterList,
-  quotes: quoteList
+  quotes: quoteList,
+  schools: schoolList,
+  houses: houseList,
+  dwellings: dwellings,
+  locations: locationList
 }
