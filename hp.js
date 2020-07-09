@@ -27,6 +27,7 @@ const quoteList = [
 ]
 
 const schoolList = ['Beauxbatons', 'Durmstrang', 'Hogwarts', 'Ilvermorny', 'Castelobruxo']
+
 const houseList = ['Gryffindor', 'Hufflepuff', 'Ravenclaw', 'Slytherin']
 
 const dwellings = [
