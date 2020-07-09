@@ -29,6 +29,11 @@ console.log(`Name: ${randomCharacter}\nJob: ${job}\nEmail: ${email}\nMotto: ${qu
 Harry Potter
   - characters
   - quotes
+  - schools
+  - Hogwards Houses
+  - dwellings
+  - locations
+  - wand ceremony
 
 ### Shows
 The Office
