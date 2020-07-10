@@ -1,31 +1,56 @@
 # fun-faker
 make it fake but fun
 
-## Examples
+## Helpers
+
+First & Last Name
 
 ```javascript
-// require fun-faker module
-const funFaker = require('fun-faker')
+// require module
+const funFaker = require('./funFaker')
+// helpers
+const helpers = funFaker.helpers
+// themes
+const hp = funFaker.hp
 
-// require the themes
-const office = funFaker.office
+// ramdom character
+const randomCharacter = helpers.randomItem(hp.characters)
+// first & last name
+const firstName = helpers.fullName(randomCharacter)[0]
+const lastName = helpers.fullName(randomCharacter)[1]
+
+console.log(`First Name: ${firstName}`)
+console.log(`Last Name: ${lastName}`)
+/*
+Result:
+First Name: Vernon
+Last Name: Dursley
+*/
+```
+
+Job & Email
+
+```javascript
+// require module
+const funFaker = require('./funFaker')
+// helpers
+const helpers = funFaker.helpers
+// themes
+const hp = funFaker.hp
 const medical = funFaker.medical
 
-// randomly choose character, job, and quote
-const randomCharacter = funFaker.randomItem(office.characters)
-const job = funFaker.randomItem(medical.jobs)
-const quote = funFaker.randomItem(office.quotes)
+// ramdom character
+const randomCharacter = helpers.randomItem(hp.characters)
+// First Name: Vernon
+// Last Name: Dursley
 
-// create an email
-const email = funFaker.userEmail(randomCharacter)
+// asign job
+const job = helpers.randomItem(medical.jobs)
+// Job: Massage Therapist
 
-// result
-console.log(`Name: ${randomCharacter}\nJob: ${job}\nEmail: ${email}\nMotto: ${quote}`)
-
-// random zip
-const states = funFaker.states
-const ORZip = states.randomZip('Oregon'
-console.log(ORZip))
+// assign email
+const email = helpers.userEmail(randomCharacter)
+// Email: vdursley@email.com
 ```
 
 ## Themes
@@ -35,7 +60,7 @@ Harry Potter
   - characters
   - quotes
   - schools
-  - Hogwards Houses
+  - Hogwarts Houses
   - dwellings
   - locations
   - wand ceremony
