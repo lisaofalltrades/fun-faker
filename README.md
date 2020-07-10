@@ -21,6 +21,11 @@ const email = funFaker.userEmail(randomCharacter)
 
 // result
 console.log(`Name: ${randomCharacter}\nJob: ${job}\nEmail: ${email}\nMotto: ${quote}`)
+
+// random zip
+const states = funFaker.states
+const ORZip = states.randomZip('Oregon'
+console.log(ORZip))
 ```
 
 ## Themes
@@ -49,3 +54,8 @@ The Witcher
 Medical
   - conditions
   - jobs
+
+### Standard stuff
+Address
+  - Zip codes by State
+    - Oregon
