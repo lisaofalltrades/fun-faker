@@ -2,6 +2,7 @@ const office = require('./office')
 const hp = require('./hp')
 const medical = require('./medical')
 const witcher = require('./witcher')
+const states = require('./states')
 
 module.exports = {
   randomItem: (args) => {
@@ -18,5 +19,6 @@ module.exports = {
   office: office,
   hp: hp,
   medical: medical,
-  witcher: witcher
+  witcher: witcher,
+  states: states
 }
