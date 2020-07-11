@@ -53,6 +53,34 @@ const email = helpers.userEmail(randomCharacter)
 // Email: vdursley@email.com
 ```
 
+Random address
+
+```javascript
+// require module
+const funFaker = require('./funFaker')
+// require themes
+const states = funFaker.states
+
+const address = states.helpers.randomAddress()
+console.log(address)
+/* returns an array with an address & a coordinate object
+[
+  '33 Linscott Road Hingham MA 02043',
+  { lat: 42.2257391, lng: -70.8828675 }
+]
+*/
+
+// you can also specify a state
+const anotherAddress = states.helpers.randomAddress('CA')
+console.log(anotherAddress)
+/* returns an array with an address & a coordinate object
+[
+  '10881 Northforde Drive Cupertino CA 95014',
+  { lat: 37.335812, lng: -122.023985 }
+]
+*/
+```
+
 ## Themes
 
 ### Books
