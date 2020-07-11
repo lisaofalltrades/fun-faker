@@ -79,8 +79,12 @@ The Witcher
 Medical
   - conditions
   - jobs
+Tech
+  - jobs
+  - FAAANG companies
 
 ### Standard stuff
-Address
+Addresses
   - Zip codes by State
     - Oregon
+  - 500 US valid addresses with coordinates (sourced from [RRAD](https://github.com/EthanRBrown/rrad))
