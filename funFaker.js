@@ -5,6 +5,9 @@ const witcher = require('./witcher')
 const states = require('./states')
 
 const helpers = {
+  allChacters: () => {
+    return [].concat(hp.characters, witcher.characters, office.characters)
+  },
   fullName: (character) => {
     const firstName = character.split(' ')[0]
     let lastName = character.split(' ')[1]
