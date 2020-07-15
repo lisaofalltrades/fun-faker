@@ -18,7 +18,11 @@ const helpers = {
       }
     }
 
-    return addressList[Math.floor(Math.random() * addressList.length)]
+    const randomAdd = addressList[Math.floor(Math.random() * addressList.length)]
+
+    randomAdd.fullAddress = randomAdd.address1 + ' ' + randomAdd.city + ' ' + randomAdd.state + ' ' + randomAdd.postalCode
+
+    return randomAdd
 
     // return [randomAdd.address1 + ' ' + randomAdd.city + ' ' + randomAdd.state + ' ' + randomAdd.postalCode, randomAdd.coordinates]
   }
