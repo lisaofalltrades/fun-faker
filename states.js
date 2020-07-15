@@ -18,8 +18,9 @@ const helpers = {
       }
     }
 
-    const randomAdd = addressList[Math.floor(Math.random() * addressList.length)]
-    return [randomAdd.address1 + ' ' + randomAdd.city + ' ' + randomAdd.state + ' ' + randomAdd.postalCode, randomAdd.coordinates]
+    return addressList[Math.floor(Math.random() * addressList.length)]
+
+    // return [randomAdd.address1 + ' ' + randomAdd.city + ' ' + randomAdd.state + ' ' + randomAdd.postalCode, randomAdd.coordinates]
   }
 }
 module.exports = {
