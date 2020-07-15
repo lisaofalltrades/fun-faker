@@ -65,12 +65,13 @@ const address = states.helpers.randomAddress()
 console.log(address)
 /* returns an addres object
 {
-  address1: '1915 Southeast 29th Street',
+  address1: '4016 Doane Street',
   address2: '',
-  city: 'Oklahoma City',
-  state: 'OK',
-  postalCode: '73129',
-  coordinates: { lat: 35.4360844, lng: -97.4787061 }
+  city: 'Fremont',
+  state: 'CA',
+  postalCode: '94538',
+  coordinates: { lat: 37.514834, lng: -121.95302 },
+  fullAddress: '4016 Doane Street Fremont CA 94538'
 }
 */
 ```
